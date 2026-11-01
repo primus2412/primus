@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets & Encrypted Vault
+.env
+*.env
+security/*.enc
+security/vault.enc
+
+# Logs & Audit trails
+audit/*.log
+audit/audit.log
+logs/
+*.log
+
+# Pretrained local models (Whisper / SpeechBrain checkpoints)
+models/
+*.ckpt
+*.bin
+*.incomplete
+*.pt
+*.pth
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+security/*.bak*
+security/*.enc*
+*.bak
